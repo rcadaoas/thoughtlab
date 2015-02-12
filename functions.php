@@ -18,8 +18,14 @@ function theme_add_bootstrap() {
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.3.2', true );
 
 }
- 
 add_action( 'wp_enqueue_scripts', 'theme_add_bootstrap' );
+
+function theme_add_fontawesome() {
+	wp_enqueue_style( 'font-awesome-css', get_template_directory_uri() . '/css/font-awesome.min.css' );
+}
+add_action( 'wp_enqueue_scripts', 'theme_add_fontawesome' );
+
+
 
 ?>
 
