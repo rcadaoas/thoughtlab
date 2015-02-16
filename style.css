@@ -5,7 +5,6 @@ Version: 1.0
 Description: Theme for Thought Lab blog based on Bootstrap 3.3
 */
 
-body {text-align: center;}
 #wrapper{
 	display:block;
 	border:1px #a2a2a2 solid;
@@ -16,17 +15,17 @@ body {text-align: center;}
 #header{
 	border: 2px #a2a2a2 solid;
 }
-#content{
+/*#content{
 	width:75%;
 	border: 2px #a2a2a2 solid;
 	float: left;
-}
+}*/
 
-#sidebar{
+/*#sidebar{
 	width:23%;
 	border: 2px #a2a2a2 solid;
 	float:right;
-}
+}*/
 
 #delimiter{
 	clear: both;
@@ -44,31 +43,11 @@ body {text-align: center;}
 
 /*Old page start*/
 
-#main-content{
-	min-height: 1200px;
-	width: 100%;
-
-}
-
-#first-content{
-	min-height: 450px;
+#first-sector{
 	width: 100%;	
 	text-align: center;
-    color:white;
-}
-#mypic{
-	/*background: yellow;*/
-	height: 200px;
-	width: 100%;
-	padding: 0;
-	
-
 }
 
-#protrait{
-	border: 4px solid black;
-	margin-top:40px;
-}
 .punchline-div{
 	color:black;
 }
@@ -136,21 +115,10 @@ body {text-align: center;}
 }
 
 
-#second-content{
-	background: dimgray;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content:center;
-	min-height: 350px;
-	width: 100%;	
-	text-align: center;
-    color:white;
-}
 
 
-#third-content{
-	background: black;
+#third-sector{
+	background: white;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -227,3 +195,9 @@ body {text-align: center;}
 }
 
 /*Old page end*/
+
+
+.progress{
+
+	margin-top: 3px;
+}

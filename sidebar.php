@@ -1,4 +1,4 @@
-<div id="sidebar">
+<div id="sidebar" class="col-lg-2">
 	<h2><?php _e('Categories'); ?></h2>
 <ul>
 <?php wp_list_cats('sort_column=name&optioncount=1&heirarchical=0');?>

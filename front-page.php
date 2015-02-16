@@ -1,64 +1,95 @@
 <?php get_header(); ?>
 
-<div id="first-content">
-				<div id="mypic">
-					
-				</div>
-				<div class="punchline-div">
-					<span style="padding-left:65px;" class="punchline-icon">
-						<i class="fa fa-laptop fa-8x"></i>
-					</span>
-					<span class="punchline-icon-small">
-						<i class="fa fa-plus fa-4x"></i>
-					</span>
-					<span class="punchline-icon">
-						<i class="fa fa-coffee fa-8x"></i>
-					</span>
-					<span class="punchline-icon-small">
-						<img src="images/equal-icon.png">
-					</span>
-					<span class="punchline-icon">
-						<i class="fa fa-code fa-8x"></i>
-					</span>
-					
-				</div>
-				<div id="punchline">
-					<p >I make software and web sites for a living.</p>
+			<div id="first-sector">
+				<div class="jumbotron">
+				  <h1>Welcome to my thoughts!</h1>
+				  <p>Hi, my name is <span class="text-primary">Romeo Cadaoas</span> and welcome to my site.</p>
+				  <p><a class="btn btn-primary btn-lg">About Me</a></p>
 				</div>
 			</div>
-			<div id="second-content">
-				<a href="https://www.linkedin.com/in/rcadaoas" target="_blank">
-					<span class="fa-stack fa-7x circle-link">
-					  <i class="fa fa-circle fa-stack-2x circle-base"></i>
-					  <i class="fa fa-linkedin fa-stack-1x fa-inverse first"></i>
-					  <i class="fa fa-linkedin fa-stack-1x fa-inverse second"></i>
-					</span>
-				</a>
-				<a href="https://github.com/rcadaoas" target="_blank">
-					<span class="fa-stack fa-7x circle-link">
-					  <i class="fa fa-circle fa-stack-2x circle-base"></i>
-					  <i class="fa fa-github fa-stack-2x fa-inverse first"></i>
-					  <i class="fa fa-github fa-stack-2x fa-inverse second"></i>
-					</span>
-				</a>
-				<a href="https://plus.google.com/+RomeoCadaoas/about" target="_blank">
-					<span class="fa-stack fa-7x circle-link">
-					  <i class="fa fa-circle fa-stack-2x circle-base"></i>
-					  <i class="fa fa-google-plus fa-stack-1x fa-inverse first"></i>
-					  <i class="fa fa-google-plus fa-stack-1x fa-inverse second"></i>
-					</span>
-				</a>
-			</div>
-			<div id="third-content">
-				<div id="blog">
-					<a class="m-profile" href="https://medium.com/@romeorows">Romeo Cadaoas</a>
+			<div id="second-sector" class="col-lg-12">
+				<div class="col-lg-3 col-md-offset-1">
+					<a href="https://www.linkedin.com/in/rcadaoas" target="_blank">
+						<span class="fa-stack fa-7x circle-link">
+						  <i class="fa fa-circle fa-stack-2x circle-base"></i>
+						  <i class="fa fa-linkedin fa-stack-1x fa-inverse first"></i>
+						  <i class="fa fa-linkedin fa-stack-1x fa-inverse second"></i>
+						</span>
+					</a>
 				</div>
-				<aside id="twitter">
-					<a class="twitter-timeline" href="https://twitter.com/romeorows" data-widget-id="480760899909586945">Tweets by @romeorows</a>
-
-				</aside>
-
+				<div class="col-lg-3">
+					<a href="https://github.com/rcadaoas" target="_blank">
+						<span class="fa-stack fa-7x circle-link">
+						  <i class="fa fa-circle fa-stack-2x circle-base"></i>
+						  <i class="fa fa-github fa-stack-2x fa-inverse first"></i>
+						  <i class="fa fa-github fa-stack-2x fa-inverse second"></i>
+						</span>
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="https://plus.google.com/+RomeoCadaoas/about" target="_blank">
+						<span class="fa-stack fa-7x circle-link">
+						  <i class="fa fa-circle fa-stack-2x circle-base"></i>
+						  <i class="fa fa-google-plus fa-stack-1x fa-inverse first"></i>
+						  <i class="fa fa-google-plus fa-stack-1x fa-inverse second"></i>
+						</span>
+					</a>
+				</div>
 			</div>
 
+			<div class="page-header">
+				<h1>Technologies</h1>
+			</div>
+
+			<div class="third-sector">
+				
+				<div class="col-lg-12">
+					<div class="col-lg-1 col-md-offset-1">
+						<div class="row">
+			  				<p class="text-primary"><strong>HTML</strong></p>
+			  			</div>
+			  			<div class="row">
+			  				<p class="text-primary"><strong>CSS</strong></p>
+			  			</div>
+			  			<div class="row">
+			  				<p class="text-primary"><strong>Javascript</strong></p>
+			  			</div>
+			  			<div class="row">
+			  				<p class="text-primary"><strong>C#</strong></p>
+			  			</div>
+			  			<div class="row">
+			  				<p class="text-primary"><strong>PHP</strong></p>
+			  			</div>
+			  		</div>
+			  		<div class="col-lg-10">
+			  			<div class="row">
+							<div class="progress">
+							  <div class="progress-bar progress-bar-info" style="width: 80%"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="progress">
+						  		<div class="progress-bar progress-bar-success" style="width: 75%"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="progress">
+							  <div class="progress-bar progress-bar-warning" style="width: 80%"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger" style="width: 90%"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="progress">
+							  <div class="progress-bar progress-bar-info" style="width: 70%"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>	
 
 <?php get_footer(); ?>
