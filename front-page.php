@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="container">
-	<div id="first-sector" class="text-center">
+	<div id="content-first" class="text-center">
 		<div class="jumbotron">
 		  <h1>Welcome to my thoughts!</h1>
 		  <p>Hi, my name is <span class="text-primary">Romeo Cadaoas</span> and welcome to my site.</p>
@@ -9,7 +9,7 @@
 		</div>
 	</div>
 
-	<div id="second-sector" class="col-lg-12">
+	<div id="content-second" class="col-lg-12">
 		<div class="row">
 			<div class="col-lg-3 col-md-offset-1">
 				<a href="https://www.linkedin.com/in/rcadaoas" target="_blank">
@@ -46,7 +46,7 @@
 		<h1>Technologies</h1>
 	</div>
 
-	<div id="third-sector" class="col-lg-12">
+	<div id="content-third" class="col-lg-12">
 
 			<div class="row">
 				<div class="col-lg-1 col-md-offset-1">
