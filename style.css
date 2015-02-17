@@ -5,73 +5,22 @@ Version: 1.0
 Description: Theme for Thought Lab blog based on Bootstrap 3.3
 */
 
-#wrapper{
-	display:block;
-	border:1px #a2a2a2 solid;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	}
-#header{
-	border: 2px #a2a2a2 solid;
-}
-/*#content{
-	width:75%;
-	border: 2px #a2a2a2 solid;
-	float: left;
-}*/
+/*Thought lab style*/
 
-/*#sidebar{
-	width:23%;
-	border: 2px #a2a2a2 solid;
-	float:right;
-}*/
-
-#delimiter{
+/*classes*/
+.delimiter{
 	clear: both;
 }
 
-#footer{
-	border:2px #a2a2a2 solid;
+.progress{
+
+	margin-top: 3px;
 }
 
-.title{
-	font-size: 11pt;
-	font-family: verdana;
-	font-weight: bold;
-}
+/*Thought lab style end*/
 
-/*Old page start*/
 
-#first-sector{
-	width: 100%;	
-	text-align: center;
-}
-
-.punchline-div{
-	color:black;
-}
-.punchline-icon{
-	position: relative;
-	display: inline-block;
-	width: 12em;
-	height: 8em;
- 	animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-}
-
-.punchline-icon-small{
-	position: relative;
-	display: inline-block;
-	width: 5em;
-	height: 5em;
- 	animation: fadein 3s;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
-}
+/*Font awesome custom animation*/
 
 @keyframes fadein {
     from {
@@ -105,52 +54,6 @@ Description: Theme for Thought Lab blog based on Bootstrap 3.3
         opacity: 1;
     }
 }
-#punchline p{
-	font-size: 50px;
-	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,"Apple Gothic",sans-serif;
-	font-weight: bold;
-	color:crimson;	
-	/*position: relative;
-  	transform: translateY(290px);*/
-}
-
-
-
-
-#third-sector{
-	background: white;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content:center;
-	min-height: 650px;
-	width: 100%;	
-	text-align: center;
-    color:white;
-}
-
-#blog{
-	background: dimgray;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	height: 570px;
-	width:420px;
-	text-align: center;
-    color:white;
-    margin:25px;
-    padding:15px;
-}
-
-#twitter{
-	background: dimgray;
-	height: 570px;
-	width:420px;
-	margin:25px;
-    padding:15px;
-}
-
-/*-------------------CLASS-----------------------*/
 
 .fa-6x{
 	font-size: 6em;
@@ -194,10 +97,6 @@ Description: Theme for Thought Lab blog based on Bootstrap 3.3
     overflow: hidden;
 }
 
-/*Old page end*/
+/*Font awesome custom animation end*/
 
 
-.progress{
-
-	margin-top: 3px;
-}
