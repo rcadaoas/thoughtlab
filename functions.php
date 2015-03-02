@@ -32,3 +32,12 @@ add_action( 'wp_enqueue_scripts', 'theme_add_fontawesome' );
 <?php // Register custom navigation walker
     require_once('wp_bootstrap_navwalker.php');
 ?>
+
+<?php //modify read more link
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+function modify_read_more_link($more_link_text) {
+	//add the bootsrap class for button
+	return  str_replace('more-link', 'more-link btn btn-primary', $more_link_text);
+}
+
+?>
