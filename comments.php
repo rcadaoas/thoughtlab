@@ -52,16 +52,26 @@
 <?php else : ?>
 	<p>The comments are closed.</p>
 <?php endif; ?>
-
+<div class="page-header">
+<h3><strong><?php comments_number('No comments', 'One comment', '% comments'); ?></strong></h3>
+</div>
 <?php if($comments) : ?>
-  	<ol>
+  	<ul  class="list-group">
     	<?php foreach($comments as $comment) : ?>
-  		<li id="comment-<?php comment_ID(); ?>">
-  			<?php if ($comment->comment_approved == '0') : ?>
-  				<p>Your comment is awaiting approval</p>
-  			<?php endif; ?>
-  			<?php comment_text(); ?>
-  			<p class="meta"><?php comment_type(); ?> by <?php comment_author_link(); ?> on <?php comment_date(); ?> at <?php comment_time(); ?></p>
+  		<li id="comment-<?php comment_ID(); ?>" class="list-group-item">
+  			<div class="row">
+	  			<div class="col-lg-2">
+	  				<?php echo get_avatar(get_comment_author_email(), $size, $default_avatar ); ?>
+				</div>
+	  			<div class="col-lg-9">
+	  				<?php if ($comment->comment_approved == '0') : ?>
+	  					<p class="text-warning">Your comment is pending for approval.</p>
+		  			<?php endif; ?>
+		  			<?php comment_text(); ?>
+	  				<p class="meta"><?php comment_type(); ?> by <?php comment_author_link(); ?> on <?php comment_date(); ?> at <?php comment_time(); ?></p>
+	  			</div>
+  			</div>
+  			<div id="delimiter"></div>
   		</li>
 		<?php endforeach; ?>
 	</ol>

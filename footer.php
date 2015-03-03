@@ -7,7 +7,7 @@
       <?php wp_footer(); ?>
    </div>
 
-<div> <!-- End of main div -->
+
 
 </body>
 </html>
