@@ -9,9 +9,15 @@
 		<div class="col-lg-9">
 			<?php the_content(); ?>
 			<?php endwhile; // end of the loop. ?>
+
 		</div>
 		<?php get_sidebar(); ?>
-	<div>
+	</div>
+	<div class="row" >
+		<div class="col-lg-9">
+			<?php comments_template('', true); ?>
+		</div>
+	</div>
 </div>
 <div id="delimiter"></div>
 <?php get_footer(); ?>
