@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <div class="container">
 	<div class="page-header">
 		<h1>All my nonsense in one page</h1>
@@ -19,4 +20,5 @@
 
 </div>
 <div id="delimiter"></div>
+
 <?php get_footer(); ?>
