@@ -11,6 +11,7 @@
 				<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 				<h4>Posted on <?php the_time('F jS, Y') ?></h4>
 				<p><?php the_content('Read More..'); ?></p>
+				<br/>
 				<hr> 
 				<?php endwhile; else: ?>
 				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
