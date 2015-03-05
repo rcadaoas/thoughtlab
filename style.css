@@ -17,6 +17,21 @@ Description: Theme for Thought Lab blog based on Bootstrap 3.3
 	margin-top: 3px;
 }
 
+#footer{
+    color: white;
+    padding: 5px;
+}
+
+#contact{
+    color: #ffffff;
+    background-color: #ff7518;
+    border-color: #ff7518;
+    height:300px;
+}
+#contact-details{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 /*Thought lab style end*/
 
 
