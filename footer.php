@@ -11,14 +11,14 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<ul class="list-group">
-								<li class="list-group-item"><i class="fa fa-facebook-official fa-2"></i> <a href="">Facebook</a> </li>
-								<li class="list-group-item"><i class="fa fa-twitter fa-2"></i> <a href="">Twitter</a> </li>
+								<li class="list-group-item"><i class="fa fa-facebook fa-2"></i> <a href="https://www.facebook.com/romeorows" target="_blank">&nbsp;&nbsp;Facebook</a> </li>
+								<li class="list-group-item"><i class="fa fa-twitter fa-2"></i> <a href="https://twitter.com/romeorows" target="_blank">&nbsp;&nbsp;@romeorows</a> </li>
 							</ul>
 						</div>
 						<div class="col-lg-6">
 							<ul class="list-group">
-								<li class="list-group-item"><i class="fa fa-facebook-official fa-2"></i> <a href="">EMail</a> </li>
-								<li class="list-group-item"><i class="fa fa-twitter fa-2"></i> <a href="">+971 56 6547827</a> </li>
+								<li class="list-group-item"><i class="fa fa-envelope-o fa-2"></i> <small class="text-primary">romeo.mail7@gmail.com</small></li>
+								<li class="list-group-item"><i class="fa fa-mobile fa-2"></i> &nbsp;&nbsp; <span class="text-primary">+971 56 6547827</span></li>
 							</ul>
 						</div>
 					</div>
