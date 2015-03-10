@@ -4,7 +4,7 @@
 		<div class="jumbotron">
 		  <h1>Welcome to my thoughts!</h1>
 		  <p>Hi, my name is <span class="text-primary">Romeo Cadaoas</span> and welcome to my site.</p>
-		  <p><a class="btn btn-primary btn-lg">About Me</a></p>
+		  <p><a class="btn btn-primary btn-lg" href="<?php bloginfo('url')?>/about">About Me</a></p>
 		</div>
 	</div>
 

@@ -5,9 +5,9 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-offset-1">
 					<div class="page-header">
-						<h1>Contact</h3>
+						<h1><strong>Contact</strong></h3>
 					</div>
-					<p><small>Do you want to add something in the web? Get in touch!</small></p>
+					<p><small><strong>Do you want to create something in the web? Get in touch!</strong></small></p>
 					<div class="row">
 						<div class="col-lg-6">
 							<ul class="list-group">
