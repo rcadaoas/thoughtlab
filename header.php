@@ -37,4 +37,6 @@
 </nav>
 </header>
 
+<!-- Start of main container -->
+<div id="main-container" class="container">
 

@@ -48,6 +48,14 @@ function thoughtlab_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 
+	register_sidebar( array(
+		'name'          => 'Title Header',
+		'id'            => 'header_1',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
+	) );
 }
 add_action( 'widgets_init', 'thoughtlab_widgets_init' );
 
@@ -60,5 +68,7 @@ function modify_read_more_link($more_link_text) {
 	//add the bootsrap class for button
 	return  str_replace('more-link', 'more-link btn btn-primary', $more_link_text);
 }
+
+add_theme_support( 'post-thumbnails' );
 
 ?>

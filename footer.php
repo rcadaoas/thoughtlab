@@ -1,4 +1,4 @@
-	
+	</div><!-- End of main container -->
 	<div class="delimiter"><br/><br/></div>
 	<div id="contact">
 		<div id="contact-details">
