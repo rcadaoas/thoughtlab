@@ -87,10 +87,7 @@ Description: Theme for Thought Lab blog based on Bootstrap 3.3
 }
 
 /*CIRCLES*/
-.circle-link{
-	margin-top: 55px;
-	margin-left: 50px;	
-}
+
 .circle-base{
   color: black;
 }
@@ -104,13 +101,30 @@ Description: Theme for Thought Lab blog based on Bootstrap 3.3
     color: black;
 }
 
-.fa-stack, .circle-base, .fa-inverse {
+
+.github-circle-base{
+  color: white;
+}
+.fa-stack:hover .github-circle-base {
+    color: black;
+}
+.github-second, .github-first{
+    color: black;
+}
+.fa-stack:hover .github-first {
+    margin-top: -210px;
+}
+.fa-stack:hover .github-second {
+    color: white;
+}
+
+.fa-stack, .circle-base, .fa-inverse, .github-first {
     -webkit-transition: all 0.2s ease 0s;
     -moz-transition: all 0.2s ease 0s;
     -o-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
     overflow: hidden;
 }
-
+.fa-stack br { display: none }
 /*Font awesome custom animation end*/
 
