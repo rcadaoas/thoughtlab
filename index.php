@@ -18,7 +18,14 @@
 			<p><?php the_content('Read More..'); ?></p>
 			<br/>
 			<hr> 
-			<?php endwhile; else: ?>
+			<?php endwhile; ?> 
+
+			<!-- Add the pagination functions here. -->
+			<?php if(function_exists('wp_paginate')) {
+    				wp_paginate();
+			}?> 
+			
+			<?php else: ?>
 			<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 		<?php endif; ?>
 	</div>
