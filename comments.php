@@ -1,5 +1,4 @@
 <div id="comments">
-
 <?php if(!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME'])) : ?>  	
 	<?php die('You can not access this page directly!'); ?>  
 <?php endif; ?>
@@ -12,10 +11,14 @@
 
 <?php if(comments_open()) : ?>
 	<?php if(get_option('comment_registration') && !$user_ID) : ?>
-		<p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">logged in</a> to post a comment.</p><?php else : ?>
+		<p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">logged in</a> to post a comment.</p>
+	<?php else : ?>
+		<div class="page-header">
+			<h3>Let us know what you think! Drop us a comment below.. :)</h3>
+		</div>
 		<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform" class="form-horizontal">
 			<?php if($user_ID) : ?>
-				<p>Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Log out of this account">Log out &raquo;</a></p>
+				<p><strong>Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Log out of this account">Log out &raquo;</a></strong></p>
 			<?php else : ?>
 			<div class="form-group">
 				<div class="col-lg-3">
