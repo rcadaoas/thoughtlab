@@ -17,7 +17,7 @@
 						</div>
 						<div class="col-lg-6">
 							<ul class="list-group">
-								<li class="list-group-item"><i class="fa fa-envelope-o fa-2"></i> <small class="text-primary">romeo.mail7@gmail.com</small></li>
+								<li class="list-group-item"><i class="fa fa-envelope-o fa-2"></i> <small class="text-primary">emailme@romeocadaoas.co</small></li>
 								<li class="list-group-item"><i class="fa fa-mobile fa-2"></i> &nbsp;&nbsp; <span class="text-primary">+971 56 6547827</span></li>
 							</ul>
 						</div>
